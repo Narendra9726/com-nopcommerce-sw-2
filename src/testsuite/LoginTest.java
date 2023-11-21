@@ -36,10 +36,10 @@ public class LoginTest extends BaseTest {
         loginLink.click();
 //Find username  locator by id provide value by sendskeys
         WebElement userName = driver.findElement(By.id("Email"));
-        userName.sendKeys("steve213@gmail.com");
+        userName.sendKeys("whitejohn123@gmail.com");
         // Find password locator by name, provide value by sendkeys
         WebElement userPassWord = driver.findElement(By.name("Password"));
-        userPassWord.sendKeys("steve213");
+        userPassWord.sendKeys("White@123");
         //
         WebElement userLogIn = driver.findElement(By.xpath("//button[@class='button-1 login-button']"));
         userLogIn.click();
